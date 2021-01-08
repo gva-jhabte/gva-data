@@ -2,7 +2,7 @@ import datetime
 import os
 import sys
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
-from gva.data.readers import Reader, FileReader
+from gva.data import Reader, FileReader
 try:
     from rich import traceback
     traceback.install()

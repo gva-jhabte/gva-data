@@ -4,7 +4,7 @@ import time
 import datetime
 from pprint import pprint
 sys.path.insert(1, os.path.join(sys.path[0], '../..'))
-from gva.data.readers import Reader, MinioReader
+from gva.data import Reader, MinioReader
 from gva.data.formats import dictset
 try:
     from rich import traceback

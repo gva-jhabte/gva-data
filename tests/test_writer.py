@@ -5,7 +5,7 @@ import sys
 import glob
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
 from gva.data.writers import Writer, file_writer
-from gva.data.readers import Reader, FileReader
+from gva.data import Reader, FileReader
 try:
     from rich import traceback
     traceback.install()

@@ -7,7 +7,7 @@ import os
 import json
 import sys
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
-from gva.data.readers import MinioReader, Reader
+from gva.data import MinioReader, Reader
 from gva.data.formats import dictset
 from gva.flows.operators import SaveToMinioOperator
 try:
