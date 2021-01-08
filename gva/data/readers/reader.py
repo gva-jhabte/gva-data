@@ -25,7 +25,7 @@ import datetime
 from ...logging import get_logger
 from .base_reader import BaseReader
 from .gcs_reader import GoogleCloudStorageReader
-from .threaded_reader import threaded_reader
+from .experimental_threaded_reader import threaded_reader
 from .experimental_processed_reader import processed_reader
 from ...utils.json import parse, serialize
     
